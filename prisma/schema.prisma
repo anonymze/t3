@@ -1,0 +1,10 @@
+model Example {
+    id String @id @default(cuid())
+}
+generator client {
+    provider = "prisma-client-js"
+}
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
