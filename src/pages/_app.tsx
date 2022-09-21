@@ -4,7 +4,7 @@ import { loggerLink } from "@trpc/client/links/loggerLink";
 import { withTRPC } from "@trpc/next";
 import type { AppType } from "next/dist/shared/lib/utils";
 import superjson from "superjson";
-import type { AppRouter } from "../server/router/index";
+import type { AppRouter } from "../server/router/_index";
 import "../styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {

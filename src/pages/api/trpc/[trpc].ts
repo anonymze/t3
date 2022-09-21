@@ -1,7 +1,7 @@
 // src/pages/api/trpc/[trpc].ts
 import { createNextApiHandler } from "@trpc/server/adapters/next";
 import { env } from "../../../env/server.mjs";
-import { appRouter } from "../../../server/router/index";
+import { appRouter } from "../../../server/router/_index";
 import { createContext } from "../../../server/router/_context";
 
 // export API handler
