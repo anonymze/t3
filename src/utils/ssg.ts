@@ -1,4 +1,4 @@
-import { createSSGHelpers, CreateSSGHelpersOptions } from "@trpc/react/ssg";
+import { createSSGHelpers } from "@trpc/react/ssg";
 import { appRouter } from "../server/router/_index";
 import { createContext } from "../server/router/_context";
 import superjson from "superjson";
